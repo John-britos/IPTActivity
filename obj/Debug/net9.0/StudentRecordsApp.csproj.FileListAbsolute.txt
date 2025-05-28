@@ -26,8 +26,6 @@ C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\jkzhegun6h-sjnzgf7e
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\swox8sdwla-8h4oiah9s0.gz
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\tk4bp8pbcd-1fpfb6x0uo.gz
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\20yqhnpg9w-61n19gt1b8.gz
-C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\ffjfdwttaa-pl7hsbdhch.gz
-C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\ho1fi46188-pl7hsbdhch.gz
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -42,3 +40,6 @@ C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\refint\StudentRecordsApp.dll
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\StudentRecordsApp.pdb
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\StudentRecordsApp.genruntimeconfig.cache
 C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\ref\StudentRecordsApp.dll
+C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\StudentRecordsApp.sourcelink.json
+C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\ffjfdwttaa-xnbdffxoto.gz
+C:\Users\brito\StudentRecordsApp\obj\Debug\net9.0\compressed\ho1fi46188-xnbdffxoto.gz

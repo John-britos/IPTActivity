@@ -3,174 +3,13 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "StudentRecordsApp.pl7hsbdhch.styles.css",
-      "AssetFile": "StudentRecordsApp.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001123595506"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "889"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pl7hsbdhch"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ="
-        },
-        {
-          "Name": "label",
-          "Value": "StudentRecordsApp.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "StudentRecordsApp.pl7hsbdhch.styles.css",
-      "AssetFile": "StudentRecordsApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2855"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pl7hsbdhch"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ="
-        },
-        {
-          "Name": "label",
-          "Value": "StudentRecordsApp.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "StudentRecordsApp.pl7hsbdhch.styles.css.gz",
-      "AssetFile": "StudentRecordsApp.styles.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "889"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pl7hsbdhch"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc="
-        },
-        {
-          "Name": "label",
-          "Value": "StudentRecordsApp.styles.css.gz"
-        }
-      ]
-    },
-    {
       "Route": "StudentRecordsApp.styles.css",
       "AssetFile": "StudentRecordsApp.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001123595506"
+          "Quality": "0.001124859393"
         }
       ],
       "ResponseHeaders": [
@@ -188,7 +27,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "889"
+          "Value": "888"
         },
         {
           "Name": "Content-Type",
@@ -196,15 +35,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc=\""
+          "Value": "\"Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ=\""
+          "Value": "W/\"TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
         },
         {
           "Name": "Vary",
@@ -214,7 +53,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ="
+          "Value": "sha256-TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY="
         }
       ]
     },
@@ -241,17 +80,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ=\""
+          "Value": "\"TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QwdbD4ie6D6ENVOg3xu2x4l5dVq5+wVmOiceyKwMoVQ="
+          "Value": "sha256-TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY="
         }
       ]
     },
@@ -274,7 +113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "889"
+          "Value": "888"
         },
         {
           "Name": "Content-Type",
@@ -282,11 +121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc=\""
+          "Value": "\"Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 01:38:03 GMT"
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
         },
         {
           "Name": "Vary",
@@ -296,7 +135,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JQztLBMfUZOo+//qRqLhw+ggRY/9z/wXYuaX3o8vtCc="
+          "Value": "sha256-Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0="
+        }
+      ]
+    },
+    {
+      "Route": "StudentRecordsApp.xnbdffxoto.styles.css",
+      "AssetFile": "StudentRecordsApp.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001124859393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnbdffxoto"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY="
+        },
+        {
+          "Name": "label",
+          "Value": "StudentRecordsApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "StudentRecordsApp.xnbdffxoto.styles.css",
+      "AssetFile": "StudentRecordsApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnbdffxoto"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZf9kGZi+N0p3pKDnRhhn0qaVlzlkY48pe3ba3UBiqY="
+        },
+        {
+          "Name": "label",
+          "Value": "StudentRecordsApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "StudentRecordsApp.xnbdffxoto.styles.css.gz",
+      "AssetFile": "StudentRecordsApp.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 02:40:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnbdffxoto"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vnaz1RpkqtEqHUkb95tnc8C7HychJ+6rBAvpa3ki8f0="
+        },
+        {
+          "Name": "label",
+          "Value": "StudentRecordsApp.styles.css.gz"
         }
       ]
     },

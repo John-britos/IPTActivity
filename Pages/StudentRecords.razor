@@ -10,7 +10,7 @@
     <div class="alert alert-danger">@ErrorMessage</div>
 }
 
-<button class="btn btn-primary my-2" @onclick="ShowAddForm">Add Student</button>
+<button class="btn btn-success my-2" @onclick="ShowAddForm">Add Student</button>
 
 @if (isAdding || isEditing)
 {
@@ -30,7 +30,13 @@
 
         <div class="form-group">
             <label>Course</label>
-            <InputText class="form-control" @bind-Value="currentStudent.Course" />
+            <InputSelect class="form-control" @bind-Value="currentStudent.Course">
+                <option value="">Select course</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSBA">BSBA</option>
+                <option value="BIT">BIT</option>
+                <option value="BSEduc">BSEduc</option>
+            </InputSelect>
         </div>
 
         <div class="form-group">

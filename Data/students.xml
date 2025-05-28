@@ -2,16 +2,23 @@
 <Students>
   <Student>
     <StudentId>1</StudentId>
-    <FirstName>john </FirstName>
-    <LastName>britos</LastName>
-    <Course>ads</Course>
-    <YearLevel>1</YearLevel>
+    <FirstName>John </FirstName>
+    <LastName>Britos</LastName>
+    <Course>BSIT</Course>
+    <YearLevel>3</YearLevel>
   </Student>
   <Student>
     <StudentId>2</StudentId>
-    <FirstName>ads</FirstName>
-    <LastName>das</LastName>
-    <Course>das</Course>
+    <FirstName>Ashley</FirstName>
+    <LastName>Britos</LastName>
+    <Course>BSBA</Course>
     <YearLevel>1</YearLevel>
+  </Student>
+  <Student>
+    <StudentId>3</StudentId>
+    <FirstName>Nath</FirstName>
+    <LastName>De Vera</LastName>
+    <Course>BSIT</Course>
+    <YearLevel>4</YearLevel>
   </Student>
 </Students>
