@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student>
+    <StudentId>1</StudentId>
+    <FirstName>john </FirstName>
+    <LastName>britos</LastName>
+    <Course>ads</Course>
+    <YearLevel>1</YearLevel>
+  </Student>
+  <Student>
+    <StudentId>2</StudentId>
+    <FirstName>ads</FirstName>
+    <LastName>das</LastName>
+    <Course>das</Course>
+    <YearLevel>1</YearLevel>
+  </Student>
+</Students>

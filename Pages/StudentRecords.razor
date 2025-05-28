@@ -1,0 +1,177 @@
+@page "/students"
+@using StudentRecordsApp.Models
+@using StudentRecordsApp.Services
+@inject StudentXmlService StudentService
+
+<h3>Student Records</h3>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+<button class="btn btn-primary my-2" @onclick="ShowAddForm">Add Student</button>
+
+@if (isAdding || isEditing)
+{
+    <EditForm Model="currentStudent" OnValidSubmit="SaveStudent">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>First Name</label>
+            <InputText class="form-control" @bind-Value="currentStudent.FirstName" />
+        </div>
+
+        <div class="form-group">
+            <label>Last Name</label>
+            <InputText class="form-control" @bind-Value="currentStudent.LastName" />
+        </div>
+
+        <div class="form-group">
+            <label>Course</label>
+            <InputText class="form-control" @bind-Value="currentStudent.Course" />
+        </div>
+
+        <div class="form-group">
+            <label>Year Level</label>
+            <InputSelect class="form-control" @bind-Value="currentStudent.YearLevel">
+                <option value="">Select year level</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </InputSelect>
+        </div>
+
+        <div class="my-2">
+            <button type="submit" class="btn btn-success">Save</button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+        </div>
+    </EditForm>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.Course</td>
+                    <td>@student.YearLevel</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary me-1" @onclick="() => EditStudent(student)">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteStudent(student.StudentId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Student> students = new();
+    private Student currentStudent = new();
+    private bool isAdding = false;
+    private bool isEditing = false;
+    private string ErrorMessage = "";
+
+    protected override void OnInitialized()
+    {
+        LoadStudents();
+    }
+
+    private void LoadStudents()
+    {
+        try
+        {
+            students = StudentService.GetAll();
+            ErrorMessage = "";
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Failed to load students: {ex.Message}";
+        }
+    }
+
+    private void ShowAddForm()
+    {
+        currentStudent = new Student();
+        isAdding = true;
+        isEditing = false;
+        ErrorMessage = "";
+    }
+
+    private void EditStudent(Student student)
+    {
+        currentStudent = new Student
+        {
+            StudentId = student.StudentId,
+            FirstName = student.FirstName,
+            LastName = student.LastName,
+            Course = student.Course,
+            YearLevel = student.YearLevel
+        };
+        isEditing = true;
+        isAdding = false;
+        ErrorMessage = "";
+    }
+
+    private void Cancel()
+    {
+        isAdding = false;
+        isEditing = false;
+        ErrorMessage = "";
+    }
+
+    private void SaveStudent()
+    {
+        try
+        {
+            if (isAdding)
+            {
+                StudentService.Add(currentStudent);
+            }
+            else if (isEditing)
+            {
+                StudentService.Update(currentStudent);
+            }
+
+            isAdding = false;
+            isEditing = false;
+            ErrorMessage = "";
+            LoadStudents();
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = ex.Message;
+        }
+    }
+
+    private void DeleteStudent(int id)
+    {
+        try
+        {
+            StudentService.Delete(id);
+            ErrorMessage = "";
+            LoadStudents();
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = ex.Message;
+        }
+    }
+}
